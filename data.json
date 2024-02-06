@@ -1,0 +1,263 @@
+{
+  "shopNowItems": [
+    {
+      "image": "https://cutesolution.com/html/sloppy/sloppy/assets/img/shop/product-3.png",
+      "name": "Barbecue Roast Grilling",
+      "price": "$65.00"
+    },
+    {
+      "image": "https://cutesolution.com/html/sloppy/sloppy/assets/img/shop/product-7.png",
+      "name": "Delicious Hamburger",
+      "price": "$32.00"
+    },
+    {
+      "image": "https://cutesolution.com/html/sloppy/sloppy/assets/img/shop/product-1.png",
+      "name": "Spicy Chicken",
+      "price": "$45.00"
+    }
+  ],
+
+  "menuData": {
+    "starter": {
+      "icon": "icon-starter",
+      "items": [
+        {
+          "name": "Salad",
+          "price": "$9.99",
+          "description": "Fresh mixed greens with assorted vegetables and dressing."
+        },
+        {
+          "name": "Soup",
+          "price": "$7.99",
+          "description": "Homemade soup with a variety of seasonal ingredients."
+        },
+        {
+          "name": "Bruschetta",
+          "price": "$8.99",
+          "description": "Toasted bread topped with fresh tomatoes, basil, and olive oil."
+        },
+        {
+          "name": "Stuffed Mushrooms",
+          "price": "$10.99",
+          "description": "Mushroom caps filled with a savory mixture of breadcrumbs, cheese, and herbs."
+        },
+        {
+          "name": "Caprese Salad",
+          "price": "$11.99",
+          "description": "Fresh tomatoes, mozzarella cheese, basil, and balsamic glaze."
+        },
+        {
+          "name": "Garlic Bread",
+          "price": "$6.99",
+          "description": "Toasted bread rubbed with garlic and topped with butter and herbs."
+        }
+      ]
+    },
+    "lunch": {
+      "icon": "icon-lunch",
+      "items": [
+        {
+          "name": "Burger",
+          "price": "$12.99",
+          "description": "Classic beef burger with lettuce, tomato, onion, and cheese."
+        },
+        {
+          "name": "Sandwich",
+          "price": "$10.99",
+          "description": "Delicious sandwich with turkey, ham, lettuce, tomato, and mayo."
+        },
+        {
+          "name": "Pizza",
+          "price": "$14.99",
+          "description": "Freshly baked pizza with your choice of toppings."
+        },
+        {
+          "name": "Fish Tacos",
+          "price": "$13.99",
+          "description": "Grilled fish served in soft tortillas with cabbage slaw and chipotle mayo."
+        },
+        {
+          "name": "Chicken Caesar Wrap",
+          "price": "$11.99",
+          "description": "Grilled chicken, romaine lettuce, Parmesan cheese, and Caesar dressing wrapped in a tortilla."
+        },
+        {
+          "name": "Club Sandwich",
+          "price": "$10.99",
+          "description": "Triple-decker sandwich with ham, turkey, bacon, lettuce, tomato, and mayo."
+        }
+      ]
+    },
+    "dinner": {
+      "icon": "icon-dinner",
+      "items": [
+        {
+          "name": "Steak",
+          "price": "$19.99",
+          "description": "Grilled sirloin steak served with mashed potatoes and seasonal vegetables."
+        },
+        {
+          "name": "Pasta",
+          "price": "$15.99",
+          "description": "Spaghetti with homemade marinara sauce and meatballs."
+        },
+        {
+          "name": "Grilled Salmon",
+          "price": "$18.99",
+          "description": "Fresh salmon fillet grilled to perfection and served with lemon butter sauce."
+        },
+        {
+          "name": "Risotto",
+          "price": "$16.99",
+          "description": "Creamy Italian rice dish cooked with mushrooms, Parmesan cheese, and white wine."
+        },
+        {
+          "name": "Beef Stir Fry",
+          "price": "$17.99",
+          "description": "Tender beef strips stir-fried with vegetables in a savory sauce."
+        },
+        {
+          "name": "Roast Chicken",
+          "price": "$16.99",
+          "description": "Oven-roasted chicken served with roasted potatoes and gravy."
+        }
+      ]
+    },
+    "drinks": {
+      "icon": "icon-drinks",
+      "items": [
+        {
+          "name": "Soda",
+          "price": "$2.99",
+          "description": "Assorted soft drinks and carbonated beverages."
+        },
+        {
+          "name": "Wine",
+          "price": "$8.99",
+          "description": "Selection of red and white wines from local vineyards."
+        },
+        {
+          "name": "Beer",
+          "price": "$5.99",
+          "description": "Variety of locally brewed beers on tap."
+        },
+        {
+          "name": "Cocktails",
+          "price": "$9.99",
+          "description": "Handcrafted cocktails made with premium spirits and fresh ingredients."
+        },
+        {
+          "name": "Smoothies",
+          "price": "$6.99",
+          "description": "Refreshing blended drinks made with fresh fruit and yogurt."
+        },
+        {
+          "name": "Iced Tea",
+          "price": "$3.99",
+          "description": "Chilled tea served with lemon and sugar syrup."
+        }
+      ]
+    },
+    "dessert": {
+      "icon": "icon-dessert",
+      "items": [
+        {
+          "name": "Chocolate Cake",
+          "price": "$7.99",
+          "description": "Rich chocolate cake served with vanilla ice cream and chocolate sauce."
+        },
+        {
+          "name": "Cheesecake",
+          "price": "$8.99",
+          "description": "Creamy cheesecake topped with strawberries and whipped cream."
+        },
+        {
+          "name": "Apple Pie",
+          "price": "$6.99",
+          "description": "Homemade apple pie served warm with a scoop of vanilla ice cream."
+        },
+        {
+          "name": "Tiramisu",
+          "price": "$9.99",
+          "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese."
+        },
+        {
+          "name": "Fruit Tart",
+          "price": "$7.99",
+          "description": "Buttery pastry crust filled with vanilla custard and topped with assorted fresh fruits."
+        },
+        {
+          "name": "Ice Cream Sundae",
+          "price": "$5.99",
+          "description": "Vanilla ice cream topped with chocolate sauce, whipped cream, and a cherry on top."
+        },
+        {
+          "name": "Lemon Tart",
+          "price": "$8.99",
+          "description": "Tangy lemon filling in a buttery tart shell, garnished with powdered sugar."
+        },
+        {
+          "name": "Panna Cotta",
+          "price": "$7.99",
+          "description": "Italian dessert of sweetened cream thickened with gelatin and served with fruit sauce."
+        }
+      ]
+    }
+  },
+  "foodImages": [
+    {
+      "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "lunch"
+    },
+    {
+      "image": "https://images.pexels.com/photos/1132558/pexels-photo-1132558.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "dessert"
+    },
+
+    {
+      "image": "https://images.pexels.com/photos/2230540/pexels-photo-2230540.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "breakfast"
+    },
+    {
+      "image": "https://images.pexels.com/photos/541216/pexels-photo-541216.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "lunch"
+    },
+    {
+      "image": "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "breakfast"
+    },
+    {
+      "image": "https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "lunch"
+    },
+    {
+      "image": "https://images.pexels.com/photos/2662875/pexels-photo-2662875.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "breakfast"
+    },
+    {
+      "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "lunch"
+    },
+    {
+      "image": "https://images.pexels.com/photos/2638026/pexels-photo-2638026.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "dessert"
+    },
+    {
+      "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "lunch"
+    },
+
+    {
+      "image": "https://images.pexels.com/photos/2113556/pexels-photo-2113556.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "breakfast"
+    },
+    {
+      "image": "https://images.pexels.com/photos/2373520/pexels-photo-2373520.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "dessert"
+    },
+    {
+      "image": "https://images.pexels.com/photos/2084706/pexels-photo-2084706.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "breakfast"
+    }
+  ]
+}
