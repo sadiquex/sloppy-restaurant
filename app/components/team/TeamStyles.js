@@ -6,6 +6,7 @@ import { P } from "../../_ui/styles/designSystem/textSystem";
 
 export const TeamContainer = styled.section`
   background: ${(theme) => theme.theme.backgroundColor};
+  background: #1b1b1b;
   padding-bottom: 30px;
 `;
 

@@ -6,11 +6,12 @@ import { H1, P } from "../../_ui/styles/designSystem/textSystem";
 import { BUTTON } from "../ui/Components";
 
 export const HomeContainer = styled(BACKDROPCONTAINER)`
-  background-image: url("https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-image: url("https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=800");
+
   height: 100vh;
 
   &::before {
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.3); */
   }
 
   @media (max-width: 480px) {

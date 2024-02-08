@@ -6,10 +6,10 @@ import { BUTTON } from "../ui/Components";
 import { P } from "../../_ui/styles/designSystem/textSystem";
 
 export const ContactSection = styled(BACKDROPCONTAINER)`
-  background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-image: url("https://images.pexels.com/photos/15592755/pexels-photo-15592755/free-photo-of-photo-of-a-room-with-chinese-lanterns.jpeg?auto=compress&cs=tinysrgb&w=800");
 
   &::before {
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.7); */
   }
 `;
 

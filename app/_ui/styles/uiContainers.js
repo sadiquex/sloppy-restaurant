@@ -34,7 +34,7 @@ export const BACKDROPCONTAINER = styled.section`
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: -1;
   }
 `;

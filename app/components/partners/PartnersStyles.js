@@ -5,7 +5,9 @@ import { MAIN } from "../../_ui/styles/uiContainers";
 import { P } from "@/app/_ui/styles/designSystem/textSystem";
 
 export const PartnersContainer = styled.section`
-  background: ${(theme) => theme.theme.backgroundColor};
+  /* background: ${(theme) => theme.theme.backgroundColor}; */
+  /* background: hsl(0, 0%, 15%); */
+  background: #1b1b1b;
   padding-bottom: 30px;
 `;
 
@@ -53,7 +55,7 @@ export const Logo = styled.div`
   height: 120px;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid #fff;
+  border: 3px solid ${(theme) => theme.theme.primary};
 
   img {
     width: 100%;

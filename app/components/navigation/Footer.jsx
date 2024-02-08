@@ -18,6 +18,8 @@ export default function Footer() {
 const Container = styled(BACKDROPCONTAINER)`
   min-height: 10vh;
   background: hsl(0, 0%, 5%);
+  /* background: ${(theme) =>
+    theme === "dark" ? "hsl(0, 0%, 5%)" : theme.theme.primary}; */
 `;
 
 const FooterContent = styled(MAIN)`

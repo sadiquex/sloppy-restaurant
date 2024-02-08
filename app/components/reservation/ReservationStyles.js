@@ -4,10 +4,10 @@ import styled from "styled-components";
 import { BACKDROPCONTAINER, MAIN } from "../../_ui/styles/uiContainers";
 
 export const ReservationSection = styled(BACKDROPCONTAINER)`
-  background-image: url("https://images.pexels.com/photos/10875186/pexels-photo-10875186.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-image: url("https://images.pexels.com/photos/10875186/pexels-photo-10875186.jpeg?auto=compress&cs=tinysrgb&w=800 ");
 
   &::before {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
   }
 `;
 

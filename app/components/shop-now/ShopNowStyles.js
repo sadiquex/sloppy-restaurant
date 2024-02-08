@@ -1,11 +1,11 @@
 "use client";
 import styled from "styled-components";
 import { BACKDROPCONTAINER, MAIN } from "../../_ui/styles/uiContainers";
-import { P } from "@/app/_ui/styles/designSystem/textSystem";
+import { H1, P } from "@/app/_ui/styles/designSystem/textSystem";
 import { BUTTON } from "../ui/Components";
 
 export const ShopNowSection = styled(BACKDROPCONTAINER)`
-  background-image: url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-image: url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=800");
 
   &::before {
     background-color: rgba(0, 0, 0, 0.5);
@@ -31,6 +31,11 @@ export const ShopNowContent = styled(MAIN)`
     padding: 20px 10px;
     overflow-x: scroll;
   }
+`;
+
+export const ShopNowTitle = styled(H1)`
+  /* because of the dark colour */
+  color: ${(theme) => (theme === "light" ? "#fff" : theme.theme.primary)};
 `;
 
 export const CardsContainer = styled.div`

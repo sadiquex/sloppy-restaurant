@@ -27,6 +27,7 @@ export default function BlogCard({ blog }) {
 const Container = styled.div`
   width: 300px;
   background: hsl(0, 0%, 15%);
+  /* background: ${(theme) => theme.theme.backgroundColor}; */
   color: ${(theme) => theme.theme.primary};
   display: flex;
   flex-direction: column;

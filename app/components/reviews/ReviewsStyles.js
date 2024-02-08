@@ -5,10 +5,10 @@ import { BACKDROPCONTAINER, MAIN } from "../../_ui/styles/uiContainers";
 import { motion } from "framer-motion";
 
 export const ReviewSection = styled(BACKDROPCONTAINER)`
-  background-image: url("https://images.pexels.com/photos/744780/pexels-photo-744780.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-image: url("https://images.pexels.com/photos/2253643/pexels-photo-2253643.jpeg?auto=compress&cs=tinysrgb&w=800");
 
   &::before {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
   }
 `;
 

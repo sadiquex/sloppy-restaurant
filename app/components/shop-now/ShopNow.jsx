@@ -7,6 +7,7 @@ import {
   CardsContainer,
   ShopNowContent,
   ShopNowSection,
+  ShopNowTitle,
 } from "./ShopNowStyles";
 
 const { shopNowItems } = data;
@@ -16,7 +17,7 @@ export default function ShopNow() {
     <ShopNowSection>
       <ShopNowContent>
         <H2>Hot Sales</H2>
-        <H1>Today&apos;s Special Dishes</H1>
+        <ShopNowTitle>Today&apos;s Special Dishes</ShopNowTitle>
         <CardsContainer>
           {shopNowItems.map((item, i) => (
             <ShopNowCard item={item} key={i} />

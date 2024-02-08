@@ -3,7 +3,12 @@ import styled from "styled-components";
 import { MAIN } from "../../_ui/styles/uiContainers";
 
 export const BlogContainer = styled.section`
-  background: hsl(0, 0%, 5%);
+  background: ${(theme) =>
+    theme === "dark" ? "hsl(0, 0%, 5%)" : theme.theme.backgroundColor};
+
+  /* background: ${(theme) =>
+    theme === "dark" ? "hsl(0, 0%, 5%)" : "#dee"}; */
+
   padding-bottom: 30px;
 `;
 

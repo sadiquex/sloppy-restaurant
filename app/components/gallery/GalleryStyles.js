@@ -31,7 +31,13 @@ export const FilterButtons = styled.div`
   justify-content: center;
   width: 100%;
   gap: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+  @media (max-width: 480px) {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
 `;
 
 export const FilterButton = styled(BUTTON)`
