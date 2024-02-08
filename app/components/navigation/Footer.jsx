@@ -1,8 +1,8 @@
 "use client";
 
 import styled from "styled-components";
-import { BACKDROPCONTAINER, MAIN } from "../_ui/styles/uiContainers";
-import { P } from "../_ui/styles/designSystem/textSystem";
+import { BACKDROPCONTAINER, MAIN } from "../../_ui/styles/uiContainers";
+import { P } from "../../_ui/styles/designSystem/textSystem";
 
 export default function Footer() {
   return (

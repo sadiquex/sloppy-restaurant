@@ -1,7 +1,8 @@
 "use client";
 
 import styled from "styled-components";
-import { P } from "../_ui/styles/designSystem/textSystem";
+import { P } from "../../_ui/styles/designSystem/textSystem";
+import Image from "next/image";
 
 export default function BlogCard({ blog }) {
   const { title, image, content, date } = blog;
@@ -9,7 +10,7 @@ export default function BlogCard({ blog }) {
   return (
     <Container>
       <BlogImageContainer>
-        <img src={image} alt={title} />
+        <Image src={image} alt={title} width={220} height={100} priority />
       </BlogImageContainer>
       <BlogText>
         <BlogTitle className="blog-title">{title}</BlogTitle>

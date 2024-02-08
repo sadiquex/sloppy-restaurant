@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
-import data from "../../data";
+import data from "@/data";
 import styled from "styled-components";
-import { P } from "../_ui/styles/designSystem/textSystem";
+import { P } from "../../_ui/styles/designSystem/textSystem";
 
 export default function FoodMenu() {
   const [selectedCategory, setSelectedCategory] = useState("starter");

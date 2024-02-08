@@ -1,8 +1,8 @@
 "use client";
 
 import styled from "styled-components";
-import { MAIN } from "../_ui/styles/uiContainers";
-import { H1, H2 } from "../_ui/styles/designSystem/textSystem";
+import { MAIN } from "../../_ui/styles/uiContainers";
+import { H1, H2 } from "../../_ui/styles/designSystem/textSystem";
 import FoodMenu from "./FoodMenu";
 
 export default function Menu() {

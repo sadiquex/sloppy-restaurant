@@ -88,7 +88,13 @@ export default function Navbar() {
               }}
             >
               {/* <Logo /> */}
-              <img src={"/assets/images/sloppy-logo.png"} alt="SloppyLogo" />
+              <Image
+                width={118}
+                height={38}
+                src={"/assets/images/sloppy-logo.png"}
+                alt="SloppyLogo"
+                priority
+              />
             </Box>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               {navItems.map((item) => (
@@ -143,7 +149,7 @@ export default function Navbar() {
               },
             }}
           >
-            <MobileNav />
+            <MobileNav handleDrawerToggle={handleDrawerToggle} />
           </Drawer>
         </nav>
       </Box>

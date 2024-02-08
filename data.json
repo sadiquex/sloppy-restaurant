@@ -206,10 +206,6 @@
   },
   "foodImages": [
     {
-      "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "category": "lunch"
-    },
-    {
       "image": "https://images.pexels.com/photos/1132558/pexels-photo-1132558.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "dessert"
     },
