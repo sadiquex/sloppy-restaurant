@@ -9,6 +9,7 @@ import ListItemText from "@mui/material/ListItemText";
 import { useState } from "react";
 import { navItems } from "./Navbar";
 import Link from "next/link";
+import { Button } from "@mui/material";
 // import { CloseMenuIcon } from "./Assets";
 
 export default function MobileNav() {
@@ -30,19 +31,26 @@ export default function MobileNav() {
       <Divider />
       <List sx={{ paddingTop: 8 }}>
         {navItems.map((item) => (
-          <Link href={`#${item.link}`} key={item.name}>
+          <Link
+            href={`#${item.link}`}
+            key={item.name}
+            style={{ textDecoration: "none" }}
+          >
             <ListItem disablePadding>
               <ListItemButton sx={{ textAlign: "left" }}>
-                <ListItemText
-                  primary={item.name} // Accessing the name property of the item object
+                <Button
                   sx={{
-                    fontSize: 24,
+                    color: "#000",
+                    textTransform: "none",
+                    fontSize: 20,
                     "&:hover": {
                       color: "hsl(5, 85%, 63%)",
                       backgroundColor: "transparent",
                     },
                   }}
-                />
+                >
+                  {item.name}
+                </Button>
               </ListItemButton>
             </ListItem>
           </Link>

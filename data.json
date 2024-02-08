@@ -259,5 +259,98 @@
       "image": "https://images.pexels.com/photos/2084706/pexels-photo-2084706.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "breakfast"
     }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 4,
+      "message": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione quidem accusamus sequi ut, quae iste pariatur eum.",
+      "name": "Ibrahim Saddik",
+      "profileImage": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "occupation": "Cashier Ahah"
+    },
+    {
+      "id": 2,
+      "rating": 3,
+      "message": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione quidem aliquid saepamus sequi ut, quae iste pariatur eum.",
+      "name": "Ibrahim Sulley",
+      "profileImage": "https://images.pexels.com/photos/5794559/pexels-photo-5794559.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "occupation": "Driver"
+    },
+    {
+      "id": 3,
+      "rating": 5,
+      "message": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione quidem ali? Laboriosam harum accusamus sequi ut, quae iste pariatur eum.",
+      "name": "Ibrahim Samira",
+      "profileImage": "https://images.pexels.com/photos/5091121/pexels-photo-5091121.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "occupation": "Musician"
+    },
+    {
+      "id": 4,
+      "message": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione quide.",
+      "name": "Ibrahim Rasheed",
+      "profileImage": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "occupation": "Footballer"
+    }
+  ],
+  "staffData": [
+    {
+      "image": "https://images.pexels.com/photos/3351927/pexels-photo-3351927.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Maxwell Dawn",
+      "position": "FOUNDER, CEO"
+    },
+    {
+      "image": "https://images.pexels.com/photos/3338672/pexels-photo-3338672.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "David Gray",
+      "position": "CHEF"
+    },
+    {
+      "image": "https://images.pexels.com/photos/3814446/pexels-photo-3814446.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Shawn French",
+      "position": "HEAD CHEF"
+    },
+    {
+      "image": "https://images.pexels.com/photos/5920774/pexels-photo-5920774.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Abdul Rahman",
+      "position": "WAITER"
+    }
+  ],
+  "blogsData": [
+    {
+      "title": "Quick and Easy Ginger Beef and Onion Stir Fry",
+      "image": "https://images.pexels.com/photos/3886870/pexels-photo-3886870.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magni sint dolorum dignissimos, eveniet mollitia a. Rem eaque consequatur molestiae?",
+      "date": "December 5, 2023"
+    },
+    {
+      "title": "Delicious Ginger Beef and Onion Stir Fry Recipe",
+      "image": "https://images.pexels.com/photos/6632567/pexels-photo-6632567.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magni sint dolorum dignissimos, eveniet mollitia a. Rem eaque consequatur molestiae?",
+      "date": "January 23, 2024"
+    },
+    {
+      "title": "10 Tips for Better Food Management",
+      "image": "https://images.pexels.com/photos/12673981/pexels-photo-12673981.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magni sint dolorum dignissimos, eveniet mollitia a. Rem eaque consequatur molestiae?",
+      "date": "November 22, 2023"
+    }
+  ],
+  "partners": [
+    {
+      "name": "Flavor Fusion",
+      "logo": "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/wjqobyqn1tg6nyizyunn"
+    },
+    {
+      "name": "Burger Me",
+      "logo": "https://images.pexels.com/photos/12111481/pexels-photo-12111481.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Beer vs Wine",
+      "logo": "https://images.pexels.com/photos/11213692/pexels-photo-11213692.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Underground",
+      "logo": "https://images.pexels.com/photos/351263/pexels-photo-351263.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
   ]
 }

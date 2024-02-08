@@ -11,6 +11,7 @@ import MobileNav from "./MobileNav";
 import Image from "next/image";
 import { MAIN } from "@/app/_ui/styles/uiContainers";
 import Link from "next/link";
+import styled from "styled-components";
 
 export const navItems = [
   {
@@ -30,8 +31,8 @@ export const navItems = [
     link: "gallery",
   },
   {
-    name: "Review",
-    link: "review",
+    name: "Reviews",
+    link: "reviews",
   },
   {
     name: "Team",
@@ -55,7 +56,7 @@ export default function Navbar() {
   };
 
   return (
-    <MAIN>
+    <NavContainer>
       <Box>
         {/* navbar */}
         <AppBar
@@ -146,6 +147,10 @@ export default function Navbar() {
           </Drawer>
         </nav>
       </Box>
-    </MAIN>
+    </NavContainer>
   );
 }
+
+const NavContainer = styled(MAIN)`
+  padding-bottom: 0;
+`;

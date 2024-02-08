@@ -1,7 +1,7 @@
 "use client";
 
 import styled from "styled-components";
-import { MAIN } from "../_ui/styles/uiContainers";
+import { BACKDROPCONTAINER, MAIN } from "../_ui/styles/uiContainers";
 import { H1, H2, P } from "../_ui/styles/designSystem/textSystem";
 import ShopNowCard from "./ui/ShopNowCard";
 import data from "../../data";
@@ -12,7 +12,7 @@ export default function ShopNow() {
   return (
     <ShopNowSection>
       <ShopNowContent>
-        <ShopNowTitle>Hot Sales</ShopNowTitle>
+        <H2>Hot Sales</H2>
         <H1>Today's Special Dishes</H1>
         <CardsContainer>
           {shopNowItems.map((item, i) => (
@@ -24,35 +24,11 @@ export default function ShopNow() {
   );
 }
 
-const ShopNowSection = styled.section`
-  position: relative;
+const ShopNowSection = styled(BACKDROPCONTAINER)`
   background-image: url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* height: 100vh; */
-  /* width: 100vw; */
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  z-index: 10;
 
   &::before {
-    // backdrop
-    // overlay
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: -1;
-  }
-
-  @media (max-width: 480px) {
-    height: auto;
   }
 `;
 
@@ -75,10 +51,6 @@ const ShopNowContent = styled(MAIN)`
     padding: 20px 10px;
     overflow-x: scroll;
   }
-`;
-
-const ShopNowTitle = styled(H2)`
-  font-family: var(--font-kaushanScript);
 `;
 
 const CardsContainer = styled.div`

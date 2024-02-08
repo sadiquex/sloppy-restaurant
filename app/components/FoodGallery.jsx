@@ -18,7 +18,7 @@ export default function FoodGallery() {
 
   return (
     <MAIN>
-      <TabButtons>
+      <FilterButtons>
         {["All", "Breakfast", "Lunch", "Dessert"].map((category, index) => (
           <FilterButton
             key={index}
@@ -30,7 +30,7 @@ export default function FoodGallery() {
             {category}
           </FilterButton>
         ))}
-      </TabButtons>
+      </FilterButtons>
 
       {/* AnimatePresence to animate entering and leaving */}
       <AnimatePresence>
@@ -59,7 +59,7 @@ export default function FoodGallery() {
   );
 }
 
-const TabButtons = styled.div`
+const FilterButtons = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -93,6 +93,7 @@ const ImageGrid = styled(motion.div)`
 
   @media (max-width: 480px) {
     grid-template-columns: repeat(1, 1fr);
+    padding: 0px 20px;
   }
 
   img {

@@ -23,7 +23,6 @@ export default function Gallery() {
 const GalleryContainer = styled.section`
   background: ${(theme) => theme.theme.backgroundColor};
   padding-bottom: 30px;
-  /* height: 100vh; */
 `;
 
 const GalleryContent = styled(MAIN)`

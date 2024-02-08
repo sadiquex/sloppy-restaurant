@@ -1,7 +1,7 @@
 "use client";
 
 import styled from "styled-components";
-import { MAIN } from "../_ui/styles/uiContainers";
+import { BACKDROPCONTAINER, MAIN } from "../_ui/styles/uiContainers";
 import { H1, P } from "../_ui/styles/designSystem/textSystem";
 import { BUTTON } from "./ui/Components";
 
@@ -16,7 +16,7 @@ export default function Home() {
           labore provident voluptatem voluptates quod ipsa in, vitae natus.
         </Description>
         <ButtonsContainer>
-          <BUTTON>Our Menu</BUTTON>
+          <MenuButton>Our Menu</MenuButton>
           <BUTTON>Book Now</BUTTON>
         </ButtonsContainer>
       </HomeText>
@@ -24,29 +24,12 @@ export default function Home() {
   );
 }
 
-const HomeContainer = styled.section`
-  position: relative;
+const HomeContainer = styled(BACKDROPCONTAINER)`
   background-image: url("https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600");
-  /* background-attachment: fixed; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   height: 100vh;
-  /* width: 100vw; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   &::before {
-    // overlay
-    content: ""; // generate empty box
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    /* z-index: -1; */
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   @media (max-width: 480px) {
@@ -87,4 +70,10 @@ const Description = styled(P)`
 const ButtonsContainer = styled.div`
   display: flex;
   gap: 20px;
+`;
+
+const MenuButton = styled(BUTTON)`
+  background: ${(theme) => theme.theme.primary};
+  color: ${(theme) => theme.theme.backgroundColor};
+  border: 1px solid ${(theme) => theme.theme.primary};
 `;

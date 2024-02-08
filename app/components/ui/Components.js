@@ -15,10 +15,14 @@ export const BUTTON = styled.button`
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  color: ${(theme) => theme.theme.primary};
+  color: ${(theme) => theme.theme.secondary};
   font-size: 16px;
   z-index: 100;
   /* display: inline; */
+
+  &:hover {
+    color: ${(theme) => theme.theme.primary};
+  }
 
   &:hover:before {
     -webkit-transform: scaleY(1);
